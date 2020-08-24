@@ -23,4 +23,4 @@ def hello_world():
         return render_template("index.html")
 
 if __name__ == '__main__':
-    application.run(debug=True, port=8080)
+    application.run(host = '0.0.0.0', debug=True, port='80')
