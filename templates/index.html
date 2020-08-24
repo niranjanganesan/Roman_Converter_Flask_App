@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h2 {text-align: center;}
+    form {text-align: center;}
+    p {text-align: center;}
+  </style>
+</head>
+<body>
+<br>
+<br>
+<br>
+<h2>Convert Roman to Numeric</h2>
+
+<form action="/" name="input-form" method="POST">
+  <label for="fname">Enter the Roman Letter(s):</label><br>
+  <input type="text" id="fname" name="fname" value="{{ request.form['fname'] }}"><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>{{text_output}}</p>
+
+</body>
+</html>
